@@ -1,3 +1,6 @@
+clear all;
+clc;
+
 %% Task 3
 load('task_3_temp_check.mat','T');
 T_room = mean(T(1,1:2853))
