@@ -91,7 +91,7 @@ dRapp2 = sqrt((dTas2/Tref2)^2 + ((Tas2/Tref2^2)*dTref2)^2)
 RapTeo = Kp/(H0_1^(-1) + Kp)
 dRapTeo = sqrt((H0_1/(1+Kp*H0_1)^2*dKp)^2+(Kp/(1+Kp*H0_1)^2*dH0_1)^2)
 
-% Residui per compatibilit‡
+% Residui per compatibilit√†
 Res1 = abs(Rapp1 - RapTeo);
 dRes1 = sqrt(dRapp1^2+dRapTeo^2);
 Res2 = abs(Rapp2 - RapTeo);
