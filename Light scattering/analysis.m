@@ -8,7 +8,7 @@ r = 0.05*10^(-6); %[m] radius of particles
 theta = pi/2;
 dtheta = 3/180*pi*0.5;
 % other parameters
-q = n*4*pi/lambda*sin(theta/2);
+q = n*4*pi/lambda*sin(theta/2)
 dq = n*2*pi/lambda*cos(theta/2)*dtheta;
 
 %% Part 1
